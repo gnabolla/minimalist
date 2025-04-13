@@ -1,0 +1,29 @@
+# PHP specific
+vendor/
+composer.lock
+.env
+
+# IDE specific
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Config files that might contain sensitive information
+config/*.php
+!config/config.php.example
+
+# Cache and temporary files
+*.cache
+*.tmp
+temp/
+cache/
